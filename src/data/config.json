@@ -1,0 +1,22 @@
+{
+  "url": "https://plaque.isfahan.ir/geoserver",
+  "workspace": "pelak",
+  "center": [51.67693, 32.66194],
+  "projection": "EPSG:4326",
+  "projectionGeo": "EPSG:4326",
+  "extend": [51.00093, 31.29993, 52.88993, 33.69693],
+  "selectWfmLayer": "",
+  "wfsLayer": "pelak:points",
+  "baseWmsUrl": "https://plaque.isfahan.ir/geoserver/pelak/wms",
+  "baseWfsUrl": "https://plaque.isfahan.ir/geoserver/pelak/wfs",
+  "baseWfsUrlGeo": "https://plaque.isfahan.ir/geoserver/pelak/wfs",
+  "baseOwsUrl": "https://plaque.isfahan.ir/geoserver/pelak/ows",
+  "Layers": [
+    {
+      "baseWmsUrl": "https://plaque.isfahan.ir/geoserver/pelak/wms?",
+      "layer": "AppTreeNajafabad:Trees",
+      "minZoom": 12
+    }
+  ],
+  "ApiLayers": []
+}

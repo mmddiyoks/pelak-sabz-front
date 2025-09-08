@@ -1,0 +1,202 @@
+{
+  "services": [
+    {
+      "name": "پسماند",
+      "slug": "pasmand",
+      "imageSrc": "/images/services/pasmand.png",
+      "color": "yellow"
+    },
+    {
+      "name": " مشاغل",
+      "slug": "jobprovider",
+      "imageSrc": "/images/services/jobs.png",
+      "color": "purple"
+    },
+    {
+      "name": " درخواست شهروندی",
+      "slug": "citizenReport",
+      "imageSrc": "/images/services/citizenReport.svg",
+      "color": "blue"
+    },
+    {
+      "name": "بهداشت",
+      "slug": "behdasht",
+      "imageSrc": "/images/services/behdasht.svg",
+      "color": "green"
+    }
+  ],
+  "sazmaniServices": [
+    {
+      "name": "پست",
+      "slug": "post",
+      "imageSrc": "/images/services/post.svg",
+      "color": "yellow"
+    },
+    {
+      "name": "آب و فاضلاب  ",
+      "slug": "Fazelab",
+      "imageSrc": "/images/services/waterwate.png",
+      "color": "purple",
+      "isDeveloping": true
+    },
+    {
+      "name": " گاز",
+      "slug": "gas",
+      "imageSrc": "/images/services/EdareGas.png",
+      "color": "red",
+      "isDeveloping": true
+    },
+    {
+      "name": " برق",
+      "slug": "electricity",
+      "imageSrc": "/images/services/EdareBargh.png",
+      "color": "yellow",
+      "isDeveloping": true
+    }
+  ],
+
+  "publicServices": [
+    {
+      "id": "21",
+      "name": "پمپ بنزین",
+      "nameEn": "Gas Station",
+      "imageSrc": "/QR/images/publicServices/gas.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/gas.svg"
+    },
+    {
+      "id": "28",
+      "name": "مسجد",
+      "nameEn": "Mosque",
+      "imageSrc": "/QR/images/publicServices/masque.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/masque.svg",
+      "isDeveloping": true
+    },
+    {
+      "id": "40",
+      "name": "پایانه",
+      "nameEn": "Terminals",
+      "imageSrc": "https://tourismapp.isfahan.ir/assets/images/map/terminal.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/terminal.svg",
+      "isDeveloping": true
+    },
+    {
+      "id": "16",
+      "name": "بنای تاریخی",
+      "nameEn": "Historic",
+      "imageSrc": "https://tourismapp.isfahan.ir/assets/images/map/tarikhi.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/tarikhi.svg",
+      "isDeveloping": true
+    },
+
+    {
+      "id": "18",
+      "name": "بیمارستان",
+      "nameEn": "Hospital",
+      "imageSrc": "https://tourismapp.isfahan.ir/assets/images/map/hospital.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/hospital.svg",
+      "isDeveloping": true
+    },
+
+    {
+      "id": "20",
+      "name": "مدرسه",
+      "nameEn": "Schools",
+      "imageSrc": "https://tourismapp.isfahan.ir/assets/images/map/school.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/school.svg",
+      "isDeveloping": true
+    },
+
+    {
+      "id": "39",
+      "name": "ایستگاه اتوبوس",
+      "nameEn": "BusStop",
+      "imageSrc": "/QR/images/publicServices/bus.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/bus.svg",
+      "isDeveloping": true
+    },
+
+    {
+      "id": "111",
+      "name": "بازار کوثر",
+      "nameEn": "Kosar_Bazaar",
+      "imageSrc": "https://tourismapp.isfahan.ir/assets/images/map/Kosar_Bazaar.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/Kosar_Bazaar.svg",
+      "isDeveloping": true
+    },
+    {
+      "id": "23",
+      "name": "هتل",
+      "nameEn": "Hotel",
+      "imageSrc": "https://tourismapp.isfahan.ir/assets/images/map/hotel.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/hotel.svg",
+      "isDeveloping": true
+    },
+    {
+      "id": "29",
+      "name": "پارکینگ",
+      "nameEn": "Parking",
+      "imageSrc": "/QR/images/publicServices/parking.svg",
+      "mainImage": "/images/publicServices/parking.svg",
+      "isDeveloping": true
+    },
+    {
+      "id": "30",
+      "name": "رستوران",
+      "nameEn": "Resturant",
+      "imageSrc": "https://tourismapp.isfahan.ir/assets/images/map/resturan.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/resturan.svg",
+      "isDeveloping": true
+    },
+
+    {
+      "id": "31",
+      "name": "مرکز تفریحی و گردشگری",
+      "nameEn": "Tourism",
+      "imageSrc": "/images/publicServices/tourism.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/tourism.svg",
+      "isDeveloping": true
+    },
+
+    {
+      "id": "350",
+      "name": "مراکز معاینه فنی خودرو",
+      "nameEn": "Technical_examination_centers",
+      "imageSrc": "/images/publicServices/inspection.svg",
+      "mainImage": "https://tourismapp.isfahan.ir/assets/images/map/inspection.svg",
+      "isDeveloping": true
+    }
+  ],
+
+  "emergencyCalls": [
+    {
+      "name": "آتش نشانی",
+      "number": 110,
+      "imageSrc": "/images/publicServices/AtashNeshani.svg"
+    },
+    {
+      "name": "اورژانس",
+      "number": 115,
+      "imageSrc": "/images/publicServices/IranianEmergencyOrganizationLogo.svg"
+    },
+    {
+      "name": "هلال اهمر",
+      "number": 112,
+      "imageSrc": "/images/publicServices/HalalAhmar.svg"
+    },
+    {
+      "name": "شرکت گاز ",
+      "number": 194,
+      "imageSrc": "/images/publicServices/serkatsanatgraneyektazemir-Logo.svg"
+    },
+    {
+      "name": "شرکت آب و فاضلاب ",
+      "number": 122,
+      "imageSrc": "/images/publicServices/Ab-Fazelat-Logo.svg"
+    },
+    {
+      "name": "شرکت برق ",
+      "number": 121,
+      "imageSrc": "/images/publicServices/Electricity-Department-Logo.svg"
+    }
+  ]
+}
