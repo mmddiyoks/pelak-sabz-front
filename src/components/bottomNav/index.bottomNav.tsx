@@ -1,29 +1,28 @@
 import React from 'react'
 import Link from 'next/link'
 import HomeIcon from '@/components/Icons/vuesax/broken/home.svg'
-import ScanIcon from '@/components/Icons/vuesax/broken/scan.svg'
+import MapIcon from '@/components/Icons/vuesax/broken/map.svg'
+import BoxIcon from '@/components/Icons/vuesax/broken/box.svg'
 import styles from './bottomNav.module.css'
 
 const BottomNav = () => {
     return (
-        <ul className={styles.bottomNav}>
-            <li className={`${styles.navContainer} shadow-md`}>
-                <Link href="/" className={`${styles.scanButton} shadow`}>
-                    <ScanIcon className={styles.scanIcon} />
-                </Link>
-                <span className={styles.navbarScanBlank}>
-                </span>
+        <div className={styles.bottomNav}>
+            <ul className={styles.bottomNavList}>
+
                 <Link href="/" className={styles.navLink}>
                     <HomeIcon className={styles.navIcon} />
                 </Link>
-                <Link href="/" className={styles.navLink}>
-                    <HomeIcon className={styles.navIcon} />
+                <Link href="/" className={`${styles.navLink} ${styles.navLinkActive}`}>
+                    <MapIcon className={styles.navIcon} />
                 </Link>
                 <Link href="/" className={styles.navLink}>
-                    <HomeIcon className={styles.navIcon} />
+                    <BoxIcon className={styles.navIcon} />
                 </Link>
-            </li>
-        </ul>
+
+            </ul >
+        </div>
+
     )
 }
 
