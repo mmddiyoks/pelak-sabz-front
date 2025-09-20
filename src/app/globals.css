@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-
+@import "./fonts.css";
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -58,9 +58,9 @@
   --sidebar-accent-foreground: oklch(0.4254 0.1159 144.3078);
   --sidebar-border: oklch(0.8805 0.0208 74.6428);
   --sidebar-ring: oklch(0.5234 0.1347 144.1672);
-  --font-sans: iransans, sans-serif;
-  --font-serif: iransans serif;
-  --font-mono: iransans mono;
+  --font-sans: iranyekan, sans-serif;
+  --font-serif: iranyekan serif;
+  --font-mono: iranyekan mono;
   --radius: 0.5rem;
   --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
@@ -111,9 +111,8 @@
   --sidebar-accent-foreground: oklch(55.7% 0.036 139.43);
   --sidebar-border: oklch(0.3942 0.0265 142.9926);
   --sidebar-ring: oklch(0.6731 0.1624 144.2083);
-  --font-sans: Montserrat, sans-serif;
-  --font-serif: Merriweather, serif;
-  --font-mono: Source Code Pro, monospace;
+  --font-sans: iranyekan, sans-serif;
+
   --radius: 0.5rem;
   --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
@@ -203,7 +202,13 @@
   --shadow-xl: var(--shadow-xl);
   --shadow-2xl: var(--shadow-2xl);
 }
-
+* body {
+  font-family: var(--font-sans);
+  direction: rtl;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 @layer base {
   * {
     @apply border-border outline-ring/50;

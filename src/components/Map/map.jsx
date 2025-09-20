@@ -1,6 +1,5 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
-// import "./Map.css";
 import MapContext from "./MapContext";
 import * as ol from "ol";
 import "ol/ol.css";
@@ -8,7 +7,7 @@ import { baseMaps } from "./BaseMaps";
 import { cn } from "@/lib/utils";
 import config from "@/data/config.json";
 
-const Map = ({ children, zoom = 18, center, className }) => {
+const Map = ({ zoom = 18, center, className }) => {
   const mapRef = useRef();
   const [map, setMap] = useState(null);
   const [mapCenter, setMapCenter] = useState(center);
@@ -69,9 +68,7 @@ const Map = ({ children, zoom = 18, center, className }) => {
         codeInfo,
       }}
     >
-      <div ref={mapRef} className={cn("inset-0 reletive  ", className)}>
-        {children}
-      </div>
+      <div ref={mapRef} className={cn("inset-0 absolute  ", className)}></div>
     </MapContext.Provider>
   );
 };
