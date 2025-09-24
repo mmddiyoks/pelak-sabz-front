@@ -59,11 +59,6 @@ const TreeInfoDrawer: React.FC<TreeInfoDrawerProps> = ({ children }) => {
                             <DrawerTitle className="text-xl font-bold text-right">
                                 اطلاعات کامل درخت
                             </DrawerTitle>
-                            <DrawerClose asChild>
-                                <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
-                                    <X className="h-4 w-4" />
-                                </Button>
-                            </DrawerClose>
                         </div>
                         <DrawerDescription className="text-right">
                             جزئیات کامل درخت انتخاب شده

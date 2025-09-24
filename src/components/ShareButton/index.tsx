@@ -140,11 +140,7 @@ const ShareDrawer: React.FC<ShareDrawerProps> = ({
                             <DrawerTitle className="text-xl font-bold text-right">
                                 اشتراک‌گذاری اطلاعات درخت
                             </DrawerTitle>
-                            <DrawerClose asChild>
-                                <Button variant="ghost" size="sm" className="h-8 w-8 p-0 bg-gradient-to-r from-gray-500 to-gray-700 hover:from-gray-600 hover:to-gray-800 text-white hover:text-white border-0 shadow-lg hover:shadow-xl transition-all duration-300">
-                                    <X className="h-4 w-4" />
-                                </Button>
-                            </DrawerClose>
+
                         </div>
                         <DrawerDescription className="text-right">
                             آدرس و موقعیت درخت را با دیگران به اشتراک بگذارید
